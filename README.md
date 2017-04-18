@@ -1,9 +1,65 @@
-irc_server
-=====
+# Реализация IRC сервера на Erlang
+###### Реализация спецификации [RFC-1459](http://www.kvirc.ru/wiki/Спецификация_IRC_протокола_(rfc1459)_на_русском_языке)  
 
-An OTP application
+<img src="./img/what_year_is_this.jpg" alt="What year is this" width="400"/>
 
-Build
------
+Реализованные операторы:
 
-    $ rebar3 compile
+Основные команды:
+- [ ] PASS
+- [ ] NICK
+- [ ] USER
+- [ ] SERVER
+- [ ] OPER
+- [ ] QUIT
+- [ ] SQUIT
+
+Команды каналов:
+
+- [ ] JOIN
+- [ ] PART
+- [ ] MODE
+- [ ] TOPIC
+- [ ] NAMES
+- [ ] LIST
+- [ ] INVITE
+- [ ] KICK
+
+Серверные запросы и команды:
+
+- [ ] VERSION
+- [ ] STATS
+- [ ] LINKS
+- [ ] TIME
+- [ ] CONNECT
+- [ ] TRACE
+- [ ] ADMIN
+- [ ] INFO
+
+Команды отправки сообщений:
+
+- [ ] PRIVMSG
+- [ ] NOTICE
+
+Пользовательские запросы:
+
+- [ ] WHO
+- [ ] WHOIS
+- [ ] WHOWAS
+
+Остальные команды:
+
+- [ ] KILL
+- [ ] PING
+- [ ] PONG
+- [ ] ERROR
+
+Опциональные сообщения:
+- [ ] AWAY
+- [ ] REHASH
+- [ ] RESTART
+- [ ] SUMMON
+- [ ] USERS
+- [ ] WALLOPS
+- [ ] USERHOST
+- [ ] ISON
